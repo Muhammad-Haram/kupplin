@@ -9,15 +9,15 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <script src="Script.js" defer></script>
+    <script src="Script.js" defer async></script>
 </head>
 
 <body>
     <!-- nav bar and hero section  -->
 
     <!-- header -->
-    <section id="header">
-        <div class="nav">
+    <section id="header bg-transparent">
+        <div class="nav d-flex justify-content-between align-items-center p-3">
             <div class="logo">
                 <img class="cursor-color" src="img/kupplin.png" alt="">
             </div>
@@ -31,141 +31,154 @@
         <!-- header end -->
 
         <!-- menu  -->
-        <div class="nav-info">
-            <div class="nav-close">
+        <div class="nav-info w-100 h-100 d-flex flex-column bg-light position-fixed">
+
+
+            <div class="nav-close d-flex justify-content-between align-items-center p-3">
 
                 <div class="logo">
                     <img class="cursor-color" src="img/kupplin.png" alt="">
                 </div>
 
-                <div class="menu-icon">
-                    <div class="menu close">
-                        <img src="img/close.png" alt="">
+                <div class="menu close bg-transparent d-flex align-items-center justify-content-center">
+                    <img src="img/close.png" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="nav-content d-flex">
+                <div class="nav-buttons w-50 d-flex flex-column p-3">
+                    <div class="nav-btn-container  d-flex align-items-center justify-content-center mb-3">
+                        <img src="img/soul 2.png" class="isActive mr-2 align-items-center justify-content-center">
+                        <buttons class="nav-btn w-100 d-flex fs-4 align-items-center" data-nav="nav1">About Us</buttons>
+                    </div>
+
+                    <div class="nav-btn-container d-flex align-items-center justify-content-center mb-3">
+                        <img src="img/soul 2.png" class="isActive mr-2 align-items-center justify-content-center">
+                        <buttons class="nav-btn w-100 d-flex fs-4 align-items-center" data-nav="nav2">Job Search
+                        </buttons>
+                    </div>
+
+                    <div class="nav-btn-container d-flex align-items-center justify-content-center mb-3">
+                        <img src="img/soul 2.png" class="isActive mr-2 align-items-center justify-content-center">
+                        <buttons class="nav-btn w-100 d-flex fs-4 align-items-center" data-nav="nav3">Employers
+                        </buttons>
+                    </div>
+
+                    <div class="nav-btn-container d-flex align-items-center justify-content-center mb-3">
+                        <img src="img/soul 2.png" class="isActive mr-2 align-items-center justify-content-center">
+                        <buttons class="nav-btn w-100 d-flex fs-4 align-items-center" data-nav="nav4">Services</buttons>
+                    </div>
+
+                    <div class="nav-btn-container d-flex align-items-center justify-content-center mb-3">
+                        <img src="img/soul 2.png" class="isActive mr-2 align-items-center justify-content-center">
+                        <buttons class="nav-btn w-100 d-flex fs-4 align-items-center" data-nav="nav5">Clients</buttons>
+                    </div>
+
+                    <div class="nav-btn-container d-flex align-items-center justify-content-center mb-3">
+                        <img src="img/soul 2.png" class="isActive mr-2 align-items-center justify-content-center">
+                        <buttons class="nav-btn w-100 d-flex fs-4 align-items-center" data-nav="nav6">Refer A Freind
+                        </buttons>
+                    </div>
+
+                    <div class="nav-btn-container d-flex align-items-center justify-content-center mb-3">
+                        <img src="img/soul 2.png" class="isActive mr-2 align-items-center justify-content-center">
+                        <buttons class="nav-btn w-100 d-flex fs-4 align-items-center" data-nav="nav7">Blogs</buttons>
+                    </div>
+
+                </div>
+
+
+                <div class="nav-line m-3"></div>
+
+                <div class="nav-list w-50 p-3">
+                    <div id="nav1" class="nav-links w-100">
+                        <ul class="pl-0">
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">The Soal Team</a>
+                            </li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Why Choose Soal</a>
+                            </li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Capabilities
+                                    Statements</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Broachers</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">General Staffing
+                                    Sloution</a></li>
+                        </ul>
+                    </div>
+
+                    <div id="nav2" class="nav-links w-100">
+                        <ul class="pl-0">
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Job Search</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Job Search</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Job Search</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Job Search</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Job Search</a></li>
+                        </ul>
+                    </div>
+
+                    <div id="nav3" class="nav-links w-100">
+                        <ul class="pl-0">
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Employers</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Employers</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Employers</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Employers</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Employers</a></li>
+                        </ul>
+                    </div>
+
+                    <div id="nav4" class="nav-links w-100">
+                        <ul class="pl-0">
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Services</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Services</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Services</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Services</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Services</a></li>
+                        </ul>
+                    </div>
+
+                    <div id="nav5" class="nav-links w-100">
+                        <ul class="pl-0">
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Clients</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Clients</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Clients</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Clients</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Clients</a></li>
+                        </ul>
+                    </div>
+
+                    <div id="nav6" class="nav-links w-100">
+                        <ul class="pl-0">
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Refer A Freind</a>
+                            </li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Refer A Freind</a>
+                            </li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Refer A Freind</a>
+                            </li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Refer A Freind</a>
+                            </li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Refer A Freind</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="nav7" class="nav-links w-100">
+                        <ul class="pl-0">
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Blogs</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Blogs</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Blogs</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Blogs</a></li>
+                            <li class="mb-3"><a class="text-dark text-decoration-none fs-6" href="#">Blogs</a></li>
+                        </ul>
                     </div>
                 </div>
 
             </div>
 
-            <div class="nav-content">
-                <div class="nav-buttons">
-                    <div class="nav-btn-container">
-                        <img src="img/soul 2.png" class="isActive">
-                        <buttons class="nav-btn" data-nav="nav1">About Us</buttons>
-                    </div>
-
-                    <div class="nav-btn-container">
-                        <img src="img/soul 2.png" class="isActive">
-                        <buttons class="nav-btn" data-nav="nav2">Job Search</buttons>
-                    </div>
-
-                    <div class="nav-btn-container">
-                        <img src="img/soul 2.png" class="isActive">
-                        <buttons class="nav-btn" data-nav="nav3">Employers</buttons>
-                    </div>
-
-                    <div class="nav-btn-container">
-                        <img src="img/soul 2.png" class="isActive">
-                        <buttons class="nav-btn" data-nav="nav4">Services</buttons>
-                    </div>
-
-                    <div class="nav-btn-container">
-                        <img src="img/soul 2.png" class="isActive">
-                        <buttons class="nav-btn" data-nav="nav5">Clients</buttons>
-                    </div>
-
-                    <div class="nav-btn-container">
-                        <img src="img/soul 2.png" class="isActive">
-                        <buttons class="nav-btn" data-nav="nav6">Refer A Freind</buttons>
-                    </div>
-
-                    <div class="nav-btn-container">
-                        <img src="img/soul 2.png" class="isActive">
-                        <buttons class="nav-btn" data-nav="nav7">Blogs</buttons>
-                    </div>
-
-                </div>
-
-
-                <div class="nav-line"></div>
-
-                <div class="nav-list">
-                    <div id="nav1" class="nav-links">
-                        <ul>
-                            <li><a href="#">The Soal Team</a></li>
-                            <li><a href="#">Why Choose Soal</a></li>
-                            <li><a href="#">Capabilities Statements</a></li>
-                            <li><a href="#">Broachers</a></li>
-                            <li><a href="#">General Staffing Sloution</a></li>
-                        </ul>
-                    </div>
-
-                    <div id="nav2" class="nav-links">
-                        <ul>
-                            <li><a href="#">Job Search</a></li>
-                            <li><a href="#">Job Search</a></li>
-                            <li><a href="#">Job Search</a></li>
-                            <li><a href="#">Job Search</a></li>
-                            <li><a href="#">Job Search</a></li>
-                        </ul>
-                    </div>
-
-                    <div id="nav3" class="nav-links">
-                        <ul>
-                            <li><a href="#">Employers</a></li>
-                            <li><a href="#">Employers</a></li>
-                            <li><a href="#">Employers</a></li>
-                            <li><a href="#">Employers</a></li>
-                            <li><a href="#">Employers</a></li>
-                        </ul>
-                    </div>
-
-                    <div id="nav4" class="nav-links">
-                        <ul>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Services</a></li>
-                        </ul>
-                    </div>
-
-                    <div id="nav5" class="nav-links">
-                        <ul>
-                            <li><a href="#">Clients</a></li>
-                            <li><a href="#">Clients</a></li>
-                            <li><a href="#">Clients</a></li>
-                            <li><a href="#">Clients</a></li>
-                            <li><a href="#">Clients</a></li>
-                        </ul>
-                    </div>
-
-                    <div id="nav6" class="nav-links">
-                        <ul>
-                            <li><a href="#">Refer A Freind</a></li>
-                            <li><a href="#">Refer A Freind</a></li>
-                            <li><a href="#">Refer A Freind</a></li>
-                            <li><a href="#">Refer A Freind</a></li>
-                            <li><a href="#">Refer A Freind</a></li>
-                        </ul>
-                    </div>
-
-                    <div id="nav7" class="nav-links">
-                        <ul>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Blogs</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="nav-contact">
-                <a href="mailto:info@soaltech.com">info@soaltech.com</a>
-                <p>8870 Business Park Dr. Ste. 200 Austin, TX 78759</p>
-                <p class="number">+1 (512) 270 6700</p>
+            <div class="nav-contact w-100 text-end p-3">
+                <a class="text-dark text-decoration-none fs-6" href="mailto:info@soaltech.com">info@soaltech.com</a>
+                <p class="text-dark text-decoration-none">8870 Business Park Dr. Ste. 200 Austin, TX 78759</p>
+                <p class="text-dark text-decoration-underline">+1 (512) 270 6700</p>
             </div>
 
         </div>
