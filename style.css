@@ -100,110 +100,61 @@
 
 /* hero content */
 
-.content {
-    position: absolute;
-    bottom: 10%;
-    margin: 0 80px;
-}
-
-.content h1 {
-    color: white;
-    font-weight: 900;
-    font-size: 50px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
+.content .content-h1 {
+    color: #424242;
     font-family: neueHassDisplayBlack;
-    max-width: 750px;
+    font-weight: 900;
 }
 
-.content span {
-    color: #49C9FF;
-}
-
-.content p {
-    color: white;
+.content .content-p {
+    color: #7E8285;
     font-weight: 300;
-    margin-bottom: 50px;
     font-family: neueHassDisplayRoman;
-    word-spacing: 3px;
-    letter-spacing: 1px;
-}
-
-.buttons {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-
-.break .br-line {
-    width: 2px;
-    height: 70px;
-    background-color: white;
 }
 
 .Allbtn {
     width: 250px;
     height: 40px;
-    padding: 20px;
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     border: 0;
+    color: #121517;
+    font-size: 14px;
 }
 
-.buttons .button-one button {}
-
-.buttons p {
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 10px;
-    font-size: 13px;
-    word-spacing: 0px;
-    letter-spacing: 2px;
-    font-family: neueHassDisplayMedium;
-    margin-left: 5px;
-}
-
-.buttons-two .btn-two-con {
-    flex-wrap: wrap;
-    display: flex;
-    gap: 20px;
-}
-
-.buttons-two .btn-two-con button {
+.content-first-button {
+    background-color: #03A6CE;
+    font-family: "Inter", sans-serif;
     color: white;
-    background-color: #2e5b8591;
-    border: 2px solid #3188D0;
+}
+
+.content-second-button {
+    font-family: "Inter", sans-serif;
+    border: 1px solid #000;
 }
 
 /* marquee section  */
 
-.marquee {
-    background-color: #000;
+.marquee{
+    border-bottom: 1px solid #000;
 }
 
-.marquee h1 {
-    color: white;
+.marquee .marquee-h1 {
+    color: #424242;
     font-family: neueHassDisplayMedium;
-    text-align: center;
-    padding: 50px 0;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .elem {
     width: 100%;
-    position: relative;
-    height: 150px;
-    background-color: black;
 }
 
 .elem .moving {
     width: 100%;
     white-space: nowrap;
-    position: absolute;
     top: 0%;
     transition: all ease 0.5s;
     overflow: hidden;
@@ -235,7 +186,6 @@
     background-color: #40B4E5;
 }
 
-
 @keyframes move {
 
     from {
@@ -249,83 +199,6 @@
 }
 
 /* marquee section end  */
-
-/* card section  */
-
-.card-container {
-    width: 100%;
-    background-color: black;
-}
-
-.cards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    padding: 60px;
-}
-
-.card {
-    background-image: url('img/steptodown1.png');
-    width: 32%;
-    height: 500px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.img2 {
-    background-image: url('img/steptodown2.png');
-}
-
-.img3 {
-    background-image: url('img/steptodown3.png');
-}
-
-.card-gradient {
-    background: linear-gradient(0deg, rgba(18, 18, 116, 0) 65%, rgba(0, 129, 249, 0.849) 100%);
-    width: 100%;
-    height: 100%;
-    position: relative;
-    padding: 30px;
-}
-
-.card-gradient h2 {
-    color: white;
-    font-family: neueHassDisplayBlack;
-    font-size: 30px;
-}
-
-.card-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0082F9;
-    width: 130px;
-    position: absolute;
-    bottom: 30px;
-    border-radius: 50px;
-    padding: 10px 0px;
-    cursor: pointer;
-}
-
-.card-button button {
-    background-color: transparent;
-    border: 0;
-    color: white;
-    font-weight: 500;
-    font-size: 13px;
-    word-spacing: 0px;
-    letter-spacing: 2px;
-    font-family: neueHassDisplayRoman;
-    margin-right: 10px;
-}
-
-.card-button img {
-    width: 10px;
-}
 
 /* video section  */
 
@@ -417,94 +290,6 @@
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 51%, rgba(0, 0, 0, 1) 90%);
 }
 
-/* sticky scroller section  */
-
-.sticky-scroller {
-    background-color: white;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    padding: 70px;
-}
-
-.sticky-scroller .ss-left {
-    width: 50%;
-    height: 250px;
-    position: sticky;
-    top: 20px;
-    margin-right: 100px;
-}
-
-.sticky-scroller .ss-left h1 {
-    font-size: 40px;
-    font-family: neueHassDisplayBlack;
-    text-transform: uppercase;
-    color: #252525;
-    margin-top: 50px;
-}
-
-.sticky-scroller .ss-left p {
-    font-family: neueHassDisplayRoman;
-    margin-top: 20px;
-}
-
-.sticky-scroller .ss-right {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin: 30px 0px;
-    align-items: center;
-    justify-content: center;
-}
-
-.ss-right .ss-right-card img {
-    margin-bottom: 20px;
-}
-
-.ss-right .ss-right-card {
-    width: 80%;
-    background-color: white;
-    padding: 30px;
-    border-radius: 20px;
-    font-family: "Roboto", sans-serif;
-    filter: drop-shadow(1px 0px 7px #9b9b9b);
-}
-
-.ss-right .blue {
-    background-color: #cbd9fd;
-}
-
-.ss-right .ss-right-card h1 {
-    color: #585a61;
-    margin-bottom: 30px;
-}
-
-.ss-right .ss-right-card p {
-    color: #86899f;
-    margin-bottom: 40px;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.ss-right .ss-right-card .ss-right-btn {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-}
-
-.ss-right .ss-right-card .ss-right-btn p {
-    color: #0082F9;
-    margin-bottom: 0px;
-    font-size: 16px;
-    font-weight: 700;
-    margin-right: 10px;
-}
-
-.ss-right .ss-right-card .ss-right-btn img {
-    margin-bottom: 0;
-}
 
 /* blue circle section  */
 
@@ -887,4 +672,25 @@ footer .social-icon img {
 
 footer .fo-rev {
     margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+
+    .Allbtn {
+        width: 170px;
+        height: 40px;
+    }
+
+    .content-h1 {
+        font-size: 70px;
+        max-width: 300px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .content {
+        margin-right: "60px !important";
+        margin-left: "60px !important";
+    }
 }
