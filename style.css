@@ -138,7 +138,7 @@
 
 /* marquee section  */
 
-.marquee{
+.marquee {
     border-bottom: 1px solid #000;
 }
 
@@ -199,6 +199,28 @@
 }
 
 /* marquee section end  */
+
+
+/* services section */
+
+.services {}
+
+.services .services-h1 {
+    color: #424242;
+    font-family: neueHassDisplayBlack;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.services .ser-card-h1{
+    color: #424242;
+    font-family: neueHassDisplayBlack;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/* services section */
+
 
 /* video section  */
 
@@ -690,7 +712,6 @@ footer .fo-rev {
 
 @media (min-width: 992px) {
     .content {
-        margin-right: "60px !important";
-        margin-left: "60px !important";
+
     }
 }
