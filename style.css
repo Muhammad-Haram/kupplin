@@ -234,12 +234,12 @@
 .services .ser-card {
     border-top: 1px solid #BBBBBB;
     border-bottom: 1px solid #BBBBBB;
-    padding: 0px 40px;
+    padding: 0px 20px;
 }
 
 .services .ser-card-2 {
     border-bottom: 1px solid #BBBBBB;
-    padding: 0px 40px;
+    padding: 0px 20px;
 }
 
 .ser-card-h1 {
@@ -262,75 +262,51 @@
 
 .video-section {
     width: 100%;
-    padding: 60px;
+    padding: 20px;
     padding-top: 0px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 50%, rgba(9, 9, 121, 0) 70%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 58%, rgba(0, 0, 0, 1) 70%);
+    border-bottom: 1px solid #BBBBBB;
 }
 
-.video-section .heading {
-    margin-bottom: 30px;
-    max-width: 750px;
-}
-
-.video-section .heading span {
-    color: white;
-    font-size: 50px;
+.video-section .heading .video-h1 {
+    color: #424242;
+    font-size: 28px;
     font-family: neueHassDisplayBlack;
-    text-transform: uppercase;
 }
 
 .video-section .heading img {
     width: 140px;
-    height: 40px;
 }
 
 .video-section p {
-    margin-bottom: 50px;
-    color: white;
+    color: #505050;
     font-family: neueHassDisplayRoman;
     letter-spacing: 1px;
     word-spacing: 1px;
-}
-
-.video {
-    width: 100%;
-    position: relative;
-}
-
-.video-1 {
-    position: relative;
+    font-size: 14px;
 }
 
 .video img {
     width: 100%;
-
 }
 
 .play-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0082F9;
     width: 130px;
     border-radius: 50px;
-    padding: 10px 0px;
     cursor: pointer;
-    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
 .play-btn button {
-    background-color: transparent;
     border: 0;
-    color: white;
+    color: #2D353D;
     font-weight: 500;
     font-size: 13px;
     word-spacing: 0px;
     letter-spacing: 2px;
     font-family: neueHassDisplayRoman;
-    margin-left: 10px;
     cursor: pointer;
 }
 
@@ -339,172 +315,17 @@
     cursor: pointer;
 }
 
-/* white and black gradient div  */
-
-.gradient-div {
-    width: 100%;
-    height: 40vh;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 51%, rgba(0, 0, 0, 1) 90%);
-}
-
-
-/* blue circle section  */
-
-.circles-section {
-    width: 100%;
-    height: 100vh;
-    background-color: #0082F9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-}
-
-.circles-section-text {
-    padding-left: 60px;
-    position: absolute;
-    left: 0;
-}
-
-.circles-section-text h1 {
-    font-size: 40px;
-    color: white;
-    font-family: neueHassDisplayBlack;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.circles-section-text p {
-    font-family: neueHassDisplayRoman;
-    color: white;
-    word-spacing: 1px;
-    letter-spacing: 1px;
-}
-
-.circles {
-    width: 70%;
-    position: absolute;
-    right: 0;
-}
-
-.circles img {
-    width: 100%;
-}
-
-/* states section  */
-
-.states-section {
-    width: 100%;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    background-color: #000;
-}
-
-.states-section h1 {
-    font-size: 80px;
-    color: white;
-    font-family: neueHassDisplayBlack;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.states-section p {
-    font-size: 27px;
-    color: white;
-    font-family: neueHassDisplayRoman;
-    text-transform: uppercase;
-}
-
-.states-section .projects {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.states-section .projects img {
-    width: 100%;
-    height: 100%;
-}
-
-.states-section .projects .pr-text {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
-.states-section .projects .pr-text h1 {
-    margin-right: 20px;
-    font-size: 90px;
-}
-
-.states-section .hiring {
-    width: 25%;
-    height: 100%;
-}
-
-.states-section .hiring img {
-    width: 100%;
-}
-
-.states-section .hiring .hr-text {
-    padding: 100px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.states-section .clients {
-    width: 25%;
-    height: 100%;
-}
-
-.states-section .clients img {
-    width: 100%;
-}
-
-.states-section .clients .clients-text {
-    padding: 60px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 
 /* customer section  */
 .customer-section {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #fff;
-    padding: 60px;
+    background-color: #000;
+    min-height: 50vh;
+    border-bottom: 1px solid #BBBBBB;
 }
 
-.customer-section .cus-sec-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.customer-section .cus-sec-text .text-head {
-    width: 40%;
-    margin: 15px;
-}
-
-.customer-section .cus-sec-text .text-head h1 {
-    color: #252525;
+.customer-section .cus-sec-text .text-head .customer-h1 {
     font-family: neueHassDisplayBlack;
-    font-size: 50px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.customer-section .cus-sec-text .text-anchor {
-    display: flex;
-    align-items: center;
+    font-size: 30px;
 }
 
 .customer-section .cus-sec-text .text-anchor a {
@@ -514,56 +335,53 @@
     letter-spacing: 1px;
     word-spacing: 1px;
     font-size: 18px;
-    margin-right: 10px;
 }
 
 .customer-section .cus-sec-text .text-box {
-    width: 60%;
-    padding: 50px 40px;
-    padding-bottom: 30px;
-    background-color: #0082F9;
-    margin: 15px;
+    background-color: #40B4E5;
     border-radius: 10px;
 }
 
 .customer-section .cus-sec-text .text-box h2 {
-    color: #fff;
     font-family: neueHassDisplayRoman;
     font-weight: 200;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .customer-section .cus-sec-text .text-box p {
-    color: #fff;
     font-family: neueHassDisplayRoman;
-    margin-top: 20px;
-    text-align: end;
 }
 
-.customer-section .cus-sec-award {
+
+/* award section */
+
+.award-section {
+    background-color: #000;
+}
+
+.cus-sec-award {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 30px;
+    padding: 20px;
 }
 
-.customer-section .cus-sec-award h1 {
+.cus-sec-award h1 {
     color: #252525;
     font-family: neueHassDisplayMedium;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
-.customer-section .cus-sec-award .awards {
+.cus-sec-award .awards {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.customer-section .cus-sec-award .awards img {
-    width: 70px;
+.cus-sec-award .awards img {
+    width: 40px;
 }
 
 /* testimonial  */
@@ -602,56 +420,6 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
-}
-
-/* Lets Talk section  */
-
-.letsTalk {
-    background-color: white;
-    padding: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.letsTalk p {
-    font-family: neueHassDisplayRoman;
-    font-size: 14px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-.letsTalk h1 {
-    text-transform: uppercase;
-    font-family: neueHassDisplayBlack;
-    font-size: 40px;
-    font-weight: 900;
-    color: #252525;
-}
-
-.letsTalk .start {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-.letsTalk .start .start-circle {
-    background-color: #0082F9;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    bottom: 100%;
-    position: relative;
-}
-
-.letsTalk .start p {
-    position: absolute;
-    margin-bottom: 0px;
 }
 
 footer {
@@ -744,6 +512,14 @@ footer .fo-rev {
     .services .ser-card {
         padding: 0px 90px;
     }
+
+    .video-section {
+        padding: 0px 90px 40px 90px;
+    }
+
+    .video-section .heading .video-h1 {
+        font-size: 60px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -758,6 +534,15 @@ footer .fo-rev {
     .services .ser-card {
         padding: 0px 90px;
     }
+
+    .video-section {
+        padding: 0px 90px 40px 90px;
+    }
+
+    .video-section .heading .video-h1 {
+        font-size: 60px;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -775,6 +560,14 @@ footer .fo-rev {
         padding: 0px 90px;
     }
 
+    .video-section {
+        padding: 0px 90px 40px 90px;
+    }
+
+    .video-section .heading .video-h1 {
+        font-size: 60px;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -782,6 +575,10 @@ footer .fo-rev {
     .Allbtn {
         width: 170px;
         height: 40px;
+    }
+
+    .video-section {
+        padding: 0px 40px 40px 40px;
     }
 
 }
