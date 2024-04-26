@@ -18,10 +18,12 @@
 <body>
     <!-- nav bar and hero section  -->
 
-    <!-- header -->
-    <section id="header bg-transparent container">
 
-        <div class="nav d-flex justify-content-between align-items-center p-3">
+    <!-- header -->
+    <section id="header" class="bg-transparent">
+
+        <!-- menu  -->
+        <div class="nav container px-3 py-3 d-flex justify-content-between align-items-center">
             <div class="logo">
                 <img class="cursor-color" src="img/kupplin.png" alt="">
             </div>
@@ -32,20 +34,20 @@
                 </div>
             </div>
         </div>
-        <!-- header end -->
-
-        <!-- menu  -->
         <div class="nav-info w-100 h-100 d-flex flex-column bg-light position-fixed">
 
 
-            <div class="nav-close d-flex justify-content-between align-items-center p-3">
+            <div class="nav-close-parent w-100">
+                <div class="nav-close container px-3 py-3 d-flex justify-content-between align-items-center">
 
-                <div class="logo">
-                    <img class="cursor-color" src="img/kupplin.png" alt="">
-                </div>
+                    <div class="logo">
 
-                <div class="menu close bg-transparent d-flex align-items-center justify-content-center">
-                    <img src="img/close.png" alt="">
+                        <img class="cursor-color" src="img/kupplin.png" alt="">
+                    </div>
+
+                    <div class="menu close bg-transparent d-flex align-items-center justify-content-center">
+                        <img src="img/close.png" alt="">
+                    </div>
                 </div>
             </div>
 
@@ -189,14 +191,18 @@
         <!-- menu end  -->
 
     </section>
+    <!-- header end -->
+
+
 
     <!-- hero content  -->
     <section
-        class="content container w-100 d-flex align-items-center justify-content-center flex-column flex-column-reverse my-md-5 flex-md-row mx-md-5">
+        class="content container d-flex align-items-center py-3 justify-content-center flex-column flex-column-reverse my-md-5 flex-md-row gap-md-3 gap-lg-3 gap-xl-3 gap-xxl-3">
 
-        <div class="content-text col-12 col-md-5">
-            <h1 class="content-h1 text-uppercase fs-1 text-center text-md-start">Nurses Help Save Lives</h1>
-            <p class="content-p text-center fs-6 text-md-start">We turn your ideas into numbers. Soal Technology helps
+        <div class="content-text col-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+            <h1 class="content-h1 text-uppercase text-center text-md-start">Nurses Help Save Lives</h1>
+            <p class="content-p text-center fs-6 text-md-start">We turn your ideas into numbers. Soal Technology
+                helps
                 you grow
                 your Career with a proven record of
                 successful case studies.</p>
@@ -207,15 +213,16 @@
             </div>
         </div>
 
-        <div class="content-img my-4 col-12 col-md-7">
+        <div class="content-img mb-4 col-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
             <img src="/img/hero-img.png" alt="" class="container-fluid">
         </div>
     </section>
     <!-- hero content end  -->
 
+    <!-- nav bar and hero section end -->
 
     <!-- marquee  -->
-    <section class="marquee container bg-white py-5">
+    <section class="marquee bg-white py-5">
         <h1 class="marquee-h1 text-dark p-4 text-center">Trusted by 100+ amazing companies</h1>
         <div class="elem bg-white">
             <div class="moving">
@@ -258,57 +265,55 @@
                     <div class="elem-line"></div>
                 </div>
             </div>
-
         </div>
     </section>
+    <!-- marquee end -->
 
-    <section class="services container p-3">
-        <h1 class="services-h1 text-center mb-3">Our Services</h1>
 
-        <div class="service-section p-3 d-flex align-items-center justify-content-center flex-column flex-lg-row gap-3">
+    <!-- service section  -->
+    <section class="services d-flex align-items-center justify-content-center flex-column">
+        <h1 class="services-h1 my-5 text-center text-md-start align-items-md-start">Our Services</h1>
 
-            <div class="service-img w-100">
-                <img src="img/ser-1.png" alt="" class="w-100">
+        <div class="ser-card w-100 px-md-5 d-flex flex-column flex-md-row">
+
+            <div class="ser-img col-12 col-md-6 p-4 border ">
+                <img src="img/ser-1.png" alt="" class="container-fluid">
+            </div>
+            <div
+                class="ser-text col-12 col-md-6 px-4 py-5 border d-flex align-items-center justify-content-center flex-column align-items-md-start px-md-5">
+                <h1 class="ser-card-h1 text-center text-md-start">Dream Career. Finest Talent</h1>
+                <p class="ser-card-para text-center text-md-start">Are you looking to hire the most competent Healthcare
+                    Professionals?
+                </p>
+                <button class="Allbtn ser-btn background-color-[#03A6CE]">Browse Job</button>
             </div>
 
-            <div class="service-text w-100 d-flex align-items-center justify-content-center flex-column text-center">
-
-                <h1 class="ser-card-h1">Dream Career. Finest Talent</h1>
-                <p>Are you looking to hire the most competent Healthcare Professionals?</p>
-
-                <button class="Allbtn content-first-button">
-                    Browse job
-                </button>
-
-            </div>
         </div>
+        <div class="ser-card-2 w-100 px-md-5 d-flex flex-column flex-md-row flex-md-row-reverse">
 
-        <div class="service-section p-3 d-flex align-items-center justify-content-center flex-column flex-lg-row flex-lg-row-reverse gap-3">
-
-            <div class="service-img w-100">
-                <img src="img/ser-2.png" alt="" class="w-100">
+            <div class="ser-img col-12 col-md-6 p-4 border ">
+                <img src="img/ser-2.png" alt="" class="container-fluid">
             </div>
-
-            <div class="service-text w-100 d-flex align-items-center justify-content-center flex-column text-center">
-
-                <h1 class="ser-card-h1">Dream Career. Finest Talent</h1>
-                <p>Are you looking to hire the most competent Healthcare Professionals?</p>
-
-                <button class="Allbtn content-first-button">
-                    Browse job
-                </button>
-
+            <div
+                class="ser-text col-12 col-md-6 px-4 py-5 border d-flex align-items-center justify-content-center flex-column align-items-md-start px-md-5">
+                <h1 class="ser-card-h1 text-center text-md-start">Dream Career. Finest Talent</h1>
+                <p class="ser-card-para text-center text-md-start">Are you looking to hire the most competent Healthcare
+                    Professionals?
+                </p>
+                <button class="Allbtn ser-btn background-color-[#03A6CE]">Browse Job</button>
             </div>
 
         </div>
 
     </section>
+    <!-- service section end -->
+
 
     <!-- video section  -->
     <!-- <div class="video-section">
         <div class="heading">
             <span>Landing Your Dream Job Is A Reality With</span>
-            <img src="img/soul 1.png" alt="">
+            <img src="img/kupplin.png" alt="">
         </div>
         <p>We turn your ideas into numbers. Soal Technology helps you grow your Career with a proven <br>
             record of successful case studies.</p>

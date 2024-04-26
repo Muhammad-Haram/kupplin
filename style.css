@@ -25,6 +25,11 @@
 
 /* header */
 
+#header,
+.nav-close-parent {
+    border-bottom: 1px solid #BBBBBB;
+}
+
 .nav-info {
     top: -150%;
     transition: 0.3s;
@@ -81,9 +86,7 @@
 }
 
 .nav,
-.nav-close {
-    border-bottom: 1px solid #BBBBBB;
-}
+.nav-close {}
 
 .logo img {
     width: 130px;
@@ -104,6 +107,7 @@
     color: #424242;
     font-family: neueHassDisplayBlack;
     font-weight: 900;
+    font-size: 30px;
 }
 
 .content .content-p {
@@ -113,7 +117,7 @@
 }
 
 .Allbtn {
-    width: 250px;
+    width: 220px;
     height: 40px;
     border-radius: 50px;
     display: flex;
@@ -212,14 +216,46 @@
     font-size: 40px;
 }
 
-.services .ser-card-h1{
+.services .ser-card-h1 {
     color: #424242;
     font-family: neueHassDisplayBlack;
     font-weight: 900;
     font-size: 30px;
 }
 
-/* services section */
+.service-img {
+    border: 1px solid #BBBBBB;
+}
+
+.service-text {
+    border: 1px solid #BBBBBB;
+}
+
+.services .ser-card {
+    border-top: 1px solid #BBBBBB;
+    border-bottom: 1px solid #BBBBBB;
+    padding: 0px 40px;
+}
+
+.services .ser-card-2 {
+    border-bottom: 1px solid #BBBBBB;
+    padding: 0px 40px;
+}
+
+.ser-card-h1 {
+    color: #424242;
+}
+
+.ser-card-p {
+    color: #505050;
+}
+
+.ser-btn {
+    background-color: #03A6CE;
+    color: white;
+}
+
+/* services section complete */
 
 
 /* video section  */
@@ -696,6 +732,51 @@ footer .fo-rev {
     margin-bottom: 30px;
 }
 
+@media (min-width: 1400px) {
+    .content .content-h1 {
+        font-size: 60px;
+    }
+
+    .marquee .marquee-h1 {
+        font-size: 40px;
+    }
+
+    .services .ser-card {
+        padding: 0px 90px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content .content-h1 {
+        font-size: 60px;
+    }
+
+    .marquee .marquee-h1 {
+        font-size: 40px;
+    }
+
+    .services .ser-card {
+        padding: 0px 90px;
+    }
+}
+
+@media (min-width: 992px) {
+    .content {}
+
+    .content .content-h1 {
+        font-size: 60px;
+    }
+
+    .marquee .marquee-h1 {
+        font-size: 40px;
+    }
+
+    .services .ser-card {
+        padding: 0px 90px;
+    }
+
+}
+
 @media (min-width: 768px) {
 
     .Allbtn {
@@ -703,15 +784,4 @@ footer .fo-rev {
         height: 40px;
     }
 
-    .content-h1 {
-        font-size: 70px;
-        max-width: 300px;
-    }
-
-}
-
-@media (min-width: 992px) {
-    .content {
-
-    }
 }
