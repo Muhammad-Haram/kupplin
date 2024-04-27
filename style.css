@@ -358,7 +358,7 @@
     border-bottom: 1px solid #BBBBBB;
 }
 
-.candidate-inner{
+.candidate-inner {
     background-color: #40B4E5;
     padding: 20px;
 }
@@ -373,6 +373,34 @@
     font-family: "Inter", sans-serif;
     font-size: 12px;
 }
+
+
+
+/* here-to-help section */
+
+.here-to-help {
+    background-color: #000;
+    padding: 20px;
+}
+
+.here-to-help .hth-h1 {
+    font-family: neueHassDisplayBlack;
+    font-size: 35px;
+}
+
+.hth-inner-row {
+    border-bottom: 1px solid #BBBBBB;
+}
+
+.hth-row-text .hth-row-text-h1 {
+    font-size: 20px;
+}
+
+.hth-row-text .hth-row-text-para {
+    font-size: 14px;
+}
+
+/* here-to-help section end*/
 
 /* award section */
 
@@ -405,54 +433,12 @@
     width: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* testimonial  */
 
-.testimonial {
-    background-color: #161616;
-    padding: 50px 50px;
-    display: flex;
-    font-family: neueHassDisplayRoman;
-    font-weight: 100;
-}
 
-.tes-text {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 30px;
-    font-weight: 900;
-    font-family: neueHassDisplayBlack;
-    margin-right: 30px;
-}
 
-.swiper-slide {
-    display: flex;
-    color: white;
-    flex-direction: column;
-    position: relative;
-}
+/* testimonial end */
 
-.swiper-arrow {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-}
 
 footer {
     display: flex;
