@@ -352,12 +352,27 @@
     font-family: neueHassDisplayRoman;
 }
 
+.candidate {
+    background-color: black;
 
-.candidate{
-
+    border-bottom: 1px solid #BBBBBB;
 }
 
+.candidate-inner{
+    background-color: #40B4E5;
+    padding: 20px;
+}
 
+.candidate .candidate-h1 {
+    font-family: neueHassDisplayBlack;
+    font-size: 30px;
+}
+
+.candidate .candidate-para1,
+.candidate .candidate-para2 {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+}
 
 /* award section */
 
@@ -389,6 +404,17 @@
 .cus-sec-award .awards img {
     width: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* testimonial  */
 
