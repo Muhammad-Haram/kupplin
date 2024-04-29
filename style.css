@@ -234,12 +234,12 @@
 .services .ser-card {
     border-top: 1px solid #BBBBBB;
     border-bottom: 1px solid #BBBBBB;
-    padding: 0px 20px;
+    padding: 0px 30px;
 }
 
 .services .ser-card-2 {
     border-bottom: 1px solid #BBBBBB;
-    padding: 0px 20px;
+    padding: 0px 30px;
 }
 
 .ser-card-h1 {
@@ -260,11 +260,13 @@
 
 /* why choose kupplin (cwk)  */
 
-.wck-heading {}
+.wck-heading {
+    padding: 20px 30px;
+}
 
 .wck-h1 {
     color: #424242;
-    font-size: 40px;
+    font-size: 30px;
     font-family: neueHassDisplayBlack;
     text-align: center;
 }
@@ -412,7 +414,7 @@
     background-color: #000;
     min-height: 50vh;
     border-bottom: 1px solid #BBBBBB;
-    padding: 20px;
+    padding: 30px;
 }
 
 .customer-section .cus-sec-text .text-head .customer-h1 {
@@ -561,7 +563,7 @@
 
 footer {
     font-family: neueHassDisplayRoman;
-    padding: 20px;
+    padding: 30px;
     background-color: #000;
 }
 
@@ -630,12 +632,24 @@ footer .social-icon img {
         background-color: #40B4E5;
         padding: 40px 120px 0px 120px;
     }
-
+    
     .wck-cards-main {
         padding-left: 120px;
     }
 
+    .wck-heading {
+        margin-left: 120px;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .wck-h1 {
+        font-size: 60px;
+        max-width: 600px;
+    }
+
     .wck-cards-container {
+        margin: 0;
         margin-right: 120px;
     }
 }
@@ -675,9 +689,22 @@ footer .social-icon img {
         padding-left: 120px;
     }
 
+    .wck-heading {
+        margin-left: 120px;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .wck-h1 {
+        font-size: 60px;
+        max-width: 600px;
+    }
+
     .wck-cards-container {
+        margin: 0;
         margin-right: 120px;
     }
+
 
 }
 
@@ -723,7 +750,19 @@ footer .social-icon img {
         padding-left: 120px;
     }
 
+    .wck-heading {
+        margin-left: 120px;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .wck-h1 {
+        font-size: 60px;
+        max-width: 600px;
+    }
+
     .wck-cards-container {
+        margin: 0;
         margin-right: 120px;
     }
 
@@ -763,17 +802,18 @@ footer .social-icon img {
     }
 
     .wck-heading {
-        margin-bottom: 40px;
         margin-left: 120px;
         margin-bottom: 40px;
+        padding: 0;
     }
 
     .wck-h1 {
-        font-size: 40px;
-        text-align: center;
+        font-size: 60px;
+        max-width: 600px;
     }
 
     .wck-cards-container {
+        margin: 0;
         margin-right: 120px;
     }
 
