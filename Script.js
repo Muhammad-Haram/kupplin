@@ -53,12 +53,10 @@ document.querySelector(".nav-btn").click();
 // swiper js
 
 var swiper = new Swiper(".mySwiper", {
+
     slidesPerView: 1,
-    spaceBetween: 10,
-    autoplay: {
-        delay: 1800,
-        disableOnInteraction: false,
-    },
+    spaceBetween: 30,
+
     scrollbar: {
         el: ".swiper-scrollbar",
         hide: true,
@@ -66,17 +64,22 @@ var swiper = new Swiper(".mySwiper", {
     breakpoints: {
         640: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 30,
         },
         768: {
             slidesPerView: 2,
-            spaceBetween: 40,
+            spaceBetween: 30,
         },
         1024: {
             slidesPerView: 2,
-            spaceBetween: 50,
+            spaceBetween: 30,
         },
+        autoplay: {
+            delay: 1800,
+            disableOnInteraction: true,
+        }
     },
+
 });
 
 // state section/ increase counter
