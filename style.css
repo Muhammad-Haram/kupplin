@@ -260,15 +260,13 @@
 
 /* why choose kupplin (cwk)  */
 
-.wck-heading {
-    margin-left: 120px;
-    margin-bottom: 40px;
-}
+.wck-heading {}
 
 .wck-h1 {
     color: #424242;
-    font-size: 60px;
+    font-size: 40px;
     font-family: neueHassDisplayBlack;
+    text-align: center;
 }
 
 .wck-cards-main {
@@ -627,7 +625,7 @@ footer .social-icon img {
         padding: 40px 120px;
     }
 
-    
+
     .candidate-inner {
         background-color: #40B4E5;
         padding: 40px 120px 0px 120px;
@@ -636,7 +634,7 @@ footer .social-icon img {
     .wck-cards-main {
         padding-left: 120px;
     }
-    
+
     .wck-cards-container {
         margin-right: 120px;
     }
@@ -667,7 +665,7 @@ footer .social-icon img {
         padding: 40px 120px;
     }
 
-    
+
     .candidate-inner {
         background-color: #40B4E5;
         padding: 40px 120px 0px 120px;
@@ -676,7 +674,7 @@ footer .social-icon img {
     .wck-cards-main {
         padding-left: 120px;
     }
-    
+
     .wck-cards-container {
         margin-right: 120px;
     }
@@ -715,7 +713,7 @@ footer .social-icon img {
         padding: 40px 120px;
     }
 
-    
+
     .candidate-inner {
         background-color: #40B4E5;
         padding: 40px 120px 0px 120px;
@@ -724,7 +722,7 @@ footer .social-icon img {
     .wck-cards-main {
         padding-left: 120px;
     }
-    
+
     .wck-cards-container {
         margin-right: 120px;
     }
@@ -774,7 +772,7 @@ footer .social-icon img {
         font-size: 40px;
         text-align: center;
     }
-    
+
     .wck-cards-container {
         margin-right: 120px;
     }
