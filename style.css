@@ -30,6 +30,18 @@
     border-bottom: 1px solid #BBBBBB;
 }
 
+.nav {
+    padding: 10px 30px;
+}
+
+.nav-content {
+    padding: 30px 30px;
+}
+
+.nav-close {
+    padding: 10px 30px;
+}
+
 .nav-info {
     top: -150%;
     transition: 0.3s;
@@ -72,6 +84,10 @@
     line-height: 1;
 }
 
+.nav-contact {
+    padding: 10px 30px;
+}
+
 .nav-contact>* {
     cursor: pointer;
 }
@@ -102,6 +118,10 @@
 }
 
 /* hero content */
+
+.content {
+    padding: 30px;
+}
 
 .content .content-h1 {
     color: #424242;
@@ -436,7 +456,7 @@
     border-radius: 10px;
 }
 
-.customer-section .cus-sec-text .text-box h2 {
+.customer-section .cus-sec-text .text-box-head {
     font-family: neueHassDisplayRoman;
     font-weight: 200;
     font-size: 20px;
@@ -488,12 +508,20 @@
     border-bottom: 1px solid #BBBBBB;
 }
 
+.hth-row-img img {
+    width: 70px;
+}
+
 .hth-row-text .hth-row-text-h1 {
     font-size: 20px;
 }
 
 .hth-row-text .hth-row-text-para {
     font-size: 14px;
+}
+
+.hth-inner {
+    gap: 30px;
 }
 
 /* here-to-help section end*/
@@ -509,7 +537,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .cus-sec-award h1 {
@@ -602,112 +630,6 @@ footer .social-icon img {
     width: 20px;
 }
 
-@media (min-width: 1400px) {
-    .content .content-h1 {
-        font-size: 60px;
-    }
-
-    .marquee .marquee-h1 {
-        font-size: 40px;
-    }
-
-    .services .ser-card {
-        padding: 0px 90px;
-    }
-
-    .video-section {
-        padding: 0px 120px 40px 120px;
-    }
-
-    .video-section .heading .video-h1 {
-        font-size: 60px;
-    }
-
-    .customer-section {
-        padding: 40px 120px;
-    }
-
-
-    .candidate-inner {
-        background-color: #40B4E5;
-        padding: 40px 120px 0px 120px;
-    }
-    
-    .wck-cards-main {
-        padding-left: 120px;
-    }
-
-    .wck-heading {
-        margin-left: 120px;
-        margin-bottom: 40px;
-        padding: 0;
-    }
-
-    .wck-h1 {
-        font-size: 60px;
-        max-width: 600px;
-    }
-
-    .wck-cards-container {
-        margin: 0;
-        margin-right: 120px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .content .content-h1 {
-        font-size: 60px;
-    }
-
-    .marquee .marquee-h1 {
-        font-size: 40px;
-    }
-
-    .services .ser-card {
-        padding: 0px 90px;
-    }
-
-    .video-section {
-        padding: 0px 120px 40px 120px;
-    }
-
-    .video-section .heading .video-h1 {
-        font-size: 60px;
-    }
-
-    .customer-section {
-        padding: 40px 120px;
-    }
-
-
-    .candidate-inner {
-        background-color: #40B4E5;
-        padding: 40px 120px 0px 120px;
-    }
-
-    .wck-cards-main {
-        padding-left: 120px;
-    }
-
-    .wck-heading {
-        margin-left: 120px;
-        margin-bottom: 40px;
-        padding: 0;
-    }
-
-    .wck-h1 {
-        font-size: 60px;
-        max-width: 600px;
-    }
-
-    .wck-cards-container {
-        margin: 0;
-        margin-right: 120px;
-    }
-
-
-}
-
 @media (min-width: 992px) {
     .content {}
 
@@ -727,7 +649,6 @@ footer .social-icon img {
         padding: 0px 120px;
     }
 
-
     .video-section {
         padding: 0px 120px 40px 120px;
     }
@@ -739,7 +660,6 @@ footer .social-icon img {
     .customer-section {
         padding: 40px 120px;
     }
-
 
     .candidate-inner {
         background-color: #40B4E5;
@@ -775,8 +695,44 @@ footer .social-icon img {
         height: 40px;
     }
 
+    .nav,
+    .nav-close {
+        padding: 20px 120px;
+    }
+
+    .nav-content {
+        padding: 30px 120px;
+    }
+
+    .nav-contact {
+        padding: 0px 120px;
+    }
+
+    .content {
+        padding: 40px 120px;
+    }
+
+    .services .services-h1 {
+        margin-left: 120px;
+        font-size: 60px;
+    }
+
+    .services .ser-card,
+    .services .ser-card-2 {
+        padding: 0px 120px;
+    }
+
+    .services .ser-card-h1 {
+        font-size: 40px;
+        max-width: 300px;
+    }
+
     .video-section {
         padding: 0px 120px 40px 120px;
+    }
+
+    .video-section .heading .video-h1 {
+        font-size: 60px;
     }
 
     .cus-sec-award .awards img {
@@ -787,9 +743,26 @@ footer .social-icon img {
         padding: 40px 120px;
     }
 
+    .customer-section .cus-sec-text .text-head .customer-h1 {
+        font-size: 40px;
+    }
+
+    .customer-section .cus-sec-text .text-box-head {
+        font-size: 25px;
+    }
+
     .candidate-inner {
         background-color: #40B4E5;
         padding: 40px 120px 0px 120px;
+    }
+
+    .candidate .candidate-h1 {
+        font-size: 40px;
+    }
+
+    .candidate .candidate-para1,
+    .candidate .candidate-para2 {
+        font-size: 16px;
     }
 
     .here-to-help {
@@ -815,6 +788,26 @@ footer .social-icon img {
     .wck-cards-container {
         margin: 0;
         margin-right: 120px;
+    }
+
+    .cus-sec-award{
+        padding: 50px;
+    }
+
+    .here-to-help .hth-h1 {
+        font-size: 40px;
+    }
+
+    .hth-inner {
+        gap: 120px;
+    }
+
+    .testimonial{
+        padding: 40px;
+    }
+
+    footer {
+        padding: 30px 120px;
     }
 
 }
