@@ -300,6 +300,7 @@
     flex-wrap: wrap;
     border-left: 1px solid #BBBBBB;
     margin: 40px 30px;
+    border-right: 1px solid #BBBBBB;
 }
 
 .wck-card-1 {
@@ -314,7 +315,6 @@
 .wck-card-6,
 .wck-card-7 {
     border-bottom: 1px solid #BBBBBB;
-    border-right: 1px solid #BBBBBB;
 }
 
 .wck-card-img {
@@ -467,7 +467,7 @@
 
 .here-to-help .hth-h1 {
     font-family: neueHassDisplayBlack;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .hth-inner-row {
@@ -801,7 +801,7 @@ footer .social-icon img {
 
     .wck-card-3 {
         border-left: 1px solid #BBBBBB;
-        border-right: 1px solid #BBBBBB;
+        border-right:none;
         border-bottom: none;
     }
 
@@ -825,6 +825,10 @@ footer .social-icon img {
         border-right: 1px solid #BBBBBB;
     }
 
+    .wck-card-6{
+        border-right: none;
+    }
+
     .wck-card-7 {
         border-bottom: none;
     }
@@ -834,7 +838,7 @@ footer .social-icon img {
     }
 
     .here-to-help .hth-h1 {
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .hth-inner {
@@ -843,6 +847,10 @@ footer .social-icon img {
 
     .testimonial {
         padding: 40px;
+    }
+
+    .tes-h1 {
+        padding-top: 0;
     }
 
     .swiper-scrollbar {
