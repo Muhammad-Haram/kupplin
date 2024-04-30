@@ -57,6 +57,10 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
 
+    autoplay: {
+        delay: 1800,
+        disableOnInteraction: false,
+    },
     scrollbar: {
         el: ".swiper-scrollbar",
         hide: true,
@@ -74,10 +78,6 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 2,
             spaceBetween: 30,
         },
-        autoplay: {
-            delay: 1800,
-            disableOnInteraction: true,
-        }
     },
 
 });

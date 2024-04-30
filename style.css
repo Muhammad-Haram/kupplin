@@ -371,7 +371,7 @@
 }
 
 .play-btn {
-    width: 130px;
+    width: 100px;
     border-radius: 50px;
     cursor: pointer;
     left: 50%;
@@ -383,7 +383,7 @@
     border: 0;
     color: #2D353D;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 11px;
     word-spacing: 0px;
     letter-spacing: 2px;
     font-family: neueHassDisplayRoman;
@@ -391,7 +391,7 @@
 }
 
 .play-btn img {
-    width: 15px;
+    width: 10px;
     cursor: pointer;
 }
 
@@ -530,6 +530,7 @@
 }
 
 .tes-h1 {
+    padding-top: 20px;
     font-family: neueHassDisplayBlack;
     font-size: 35px;
 }
@@ -550,6 +551,24 @@
 .swiper-h1 {
     font-family: "Inter", sans-serif;
     font-size: 22px;
+}
+
+
+.swiper-scrollbar-drag {
+    background-color: #fff !important;
+}
+
+.swiper-scrollbar {
+    display: none;
+    width: 20% !important;
+    opacity: 1 !important;
+    background: #5D5D5D !important;
+    margin-top: 30px !important;
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
 }
 
 /* testimonial end */
@@ -701,6 +720,18 @@ footer .social-icon img {
         font-size: 60px;
     }
 
+    .play-btn {
+        width: 130px;
+    }
+
+    .play-btn button {
+        font-size: 13px;
+    }
+
+    .play-btn img {
+        width: 15px;
+    }
+
     .cus-sec-award .awards img {
         width: 80px;
     }
@@ -812,6 +843,10 @@ footer .social-icon img {
 
     .testimonial {
         padding: 40px;
+    }
+
+    .swiper-scrollbar {
+        display: flex;
     }
 
     footer {
