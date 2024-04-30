@@ -59,6 +59,7 @@
     cursor: pointer;
     font-family: neueHassDisplayBlack;
     line-height: 1;
+    font-size: 20px;
 }
 
 .nav-buttons .active {
@@ -82,6 +83,7 @@
 .nav-links ul li a {
     font-family: neueHassDisplayRoman;
     line-height: 1;
+    font-size: 17px;
 }
 
 .nav-contact {
@@ -615,64 +617,6 @@ footer .social-icon img {
     width: 20px;
 }
 
-@media (min-width: 992px) {
-    .content {}
-
-    .content .content-h1 {
-        font-size: 60px;
-    }
-
-    .marquee .marquee-h1 {
-        font-size: 40px;
-    }
-
-    .services .ser-card {
-        padding: 0px 120px;
-    }
-
-    .services .ser-card-2 {
-        padding: 0px 120px;
-    }
-
-    .video-section {
-        padding: 0px 120px 40px 120px;
-    }
-
-    .video-section .heading .video-h1 {
-        font-size: 60px;
-    }
-
-    .customer-section {
-        padding: 40px 120px;
-    }
-
-    .candidate-inner {
-        background-color: #40B4E5;
-        padding: 40px 120px 0px 120px;
-    }
-
-    .wck-cards-main {
-        padding-left: 120px;
-    }
-
-    .wck-heading {
-        margin-left: 120px;
-        margin-bottom: 40px;
-        padding: 0;
-    }
-
-    .wck-h1 {
-        font-size: 60px;
-        max-width: 600px;
-    }
-
-    .wck-cards-container {
-        margin: 0;
-        margin-right: 120px;
-    }
-
-}
-
 @media (min-width: 768px) {
 
     .Allbtn {
@@ -685,12 +629,24 @@ footer .social-icon img {
         padding: 20px 120px;
     }
 
+    .nav-buttons .nav-btn {
+        font-size: 35px;
+    }
+
+    .nav-links ul li a {
+        font-size: 30px;
+    }
+
     .nav-content {
         padding: 30px 120px;
     }
 
     .nav-contact {
         padding: 0px 120px;
+    }
+
+    .marquee .marquee-h1{
+        font-size: 35px;
     }
 
     .content {
@@ -801,7 +757,7 @@ footer .social-icon img {
 
     .wck-card-3 {
         border-left: 1px solid #BBBBBB;
-        border-right:none;
+        border-right: none;
         border-bottom: none;
     }
 
@@ -825,7 +781,7 @@ footer .social-icon img {
         border-right: 1px solid #BBBBBB;
     }
 
-    .wck-card-6{
+    .wck-card-6 {
         border-right: none;
     }
 
@@ -849,16 +805,16 @@ footer .social-icon img {
         padding: 40px;
     }
 
-    .tes-h1 {
-        padding-top: 0;
-    }
-
     .swiper-scrollbar {
         display: flex;
     }
 
     footer {
-        padding: 30px 120px;
+        padding: 30px 150px;
+    }
+
+    .footer .fo-tin-txt {
+        font-size: 12px;
     }
 
 }
