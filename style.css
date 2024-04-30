@@ -102,9 +102,6 @@
     top: 0px;
 }
 
-.nav,
-.nav-close {}
-
 .logo img {
     width: 130px;
     cursor: pointer;
@@ -212,7 +209,6 @@
 }
 
 @keyframes move {
-
     from {
         transform: translateX(0);
     }
@@ -220,15 +216,12 @@
     to {
         transform: translateX(-100%);
     }
-
 }
 
 /* marquee section end  */
 
 
 /* services section */
-
-.services {}
 
 .services .services-h1 {
     color: #424242;
@@ -535,8 +528,6 @@
     font-family: neueHassDisplayBlack;
     font-size: 35px;
 }
-
-.swiper-wrapper {}
 
 .swiper-slide {
     background-color: #000;
