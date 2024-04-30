@@ -10,17 +10,17 @@
 
 @font-face {
     font-family: neueHassDisplayBlack;
-    src: url("../fonts/neueHassDisplay/NeueHaasDisplayBlack.ttf");
+    src: url("fonts/neueHassDisplay/NeueHaasDisplayBlack.ttf");
 }
 
 @font-face {
     font-family: neueHassDisplayRoman;
-    src: url("../fonts/neueHassDisplay/NeueHaasDisplayRoman.ttf");
+    src: url("fonts/neueHassDisplay/NeueHaasDisplayRoman.ttf");
 }
 
 @font-face {
     font-family: neueHassDisplayMedium;
-    src: url("/fonts/neueHassDisplay/NeueHaasDisplayMediu.ttf");
+    src: url("fonts/neueHassDisplay/NeueHaasDisplayMediu.ttf");
 }
 
 /* header */
@@ -304,50 +304,16 @@
 
 .wck-card-1 {
     border-top: 1px solid #BBBBBB;
-    border-bottom: 1px solid #BBBBBB;
-    border-left: 1px solid #BBBBBB;
-    border-right: 1px solid #BBBBBB;
 }
 
-.wck-card-2 {
-    border-top: 1px solid #BBBBBB;
-    border-bottom: 1px solid #BBBBBB;
-    border-left: 1px solid #BBBBBB;
-    border-right: 1px solid #BBBBBB;
-}
-
-.wck-card-3 {
-    border-top: 1px solid #BBBBBB;
-    border-bottom: 1px solid #BBBBBB;
-    border-left: 1px solid #BBBBBB;
-    border-right: 1px solid #BBBBBB;
-}
-
-.wck-card-4 {
-    border-top: 1px solid #BBBBBB;
-    border-bottom: 1px solid #BBBBBB;
-    border-left: 1px solid #BBBBBB;
-    border-right: 1px solid #BBBBBB;
-}
-
-.wck-card-5 {
-    border-top: 1px solid #BBBBBB;
-    border-bottom: 1px solid #BBBBBB;
-    border-left: 1px solid #BBBBBB;
-    border-right: 1px solid #BBBBBB;
-}
-
-.wck-card-6 {
-    border-top: 1px solid #BBBBBB;
-    border-bottom: 1px solid #BBBBBB;
-    border-left: 1px solid #BBBBBB;
-    border-right: 1px solid #BBBBBB;
-}
-
+.wck-card-1,
+.wck-card-2,
+.wck-card-3,
+.wck-card-4,
+.wck-card-5,
+.wck-card-6,
 .wck-card-7 {
-    border-top: 1px solid #BBBBBB;
     border-bottom: 1px solid #BBBBBB;
-    border-left: 1px solid #BBBBBB;
     border-right: 1px solid #BBBBBB;
 }
 
@@ -790,7 +756,49 @@ footer .social-icon img {
         margin-right: 120px;
     }
 
-    .cus-sec-award{
+    .wck-card-1 {
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .wck-card-2 {
+        border-left: 1px solid #BBBBBB;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .wck-card-3 {
+        border-left: 1px solid #BBBBBB;
+        border-right: 1px solid #BBBBBB;
+        border-bottom: none;
+    }
+
+    .wck-card-4 {
+        border-top: 1px solid #BBBBBB;
+        border-bottom: 1px solid #BBBBBB;
+        border-right: none;
+    }
+
+    .wck-card-5 {
+        border-top: 1px solid #BBBBBB;
+        border-left: 1px solid #BBBBBB;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .wck-card-6,
+    .wck-card-7 {
+        border-top: 1px solid #BBBBBB;
+        border-left: 1px solid #BBBBBB;
+        border-right: 1px solid #BBBBBB;
+    }
+
+    .wck-card-7 {
+        border-bottom: none;
+    }
+
+    .cus-sec-award {
         padding: 50px;
     }
 
@@ -802,7 +810,7 @@ footer .social-icon img {
         gap: 120px;
     }
 
-    .testimonial{
+    .testimonial {
         padding: 40px;
     }
 
