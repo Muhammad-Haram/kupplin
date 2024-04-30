@@ -653,6 +653,10 @@ footer .social-icon img {
         padding: 40px 120px;
     }
 
+    .content .content-h1{
+        font-size: 60px;
+    }
+
     .services .services-h1 {
         margin-left: 120px;
         font-size: 60px;
