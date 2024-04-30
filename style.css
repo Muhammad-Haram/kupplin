@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* outline: 1px solid red; */
 }
 
 @font-face {
@@ -165,7 +164,7 @@
 /* marquee section  */
 
 .marquee {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #BBBBBB;
 }
 
 .marquee .marquee-h1 {
@@ -645,7 +644,7 @@ footer .social-icon img {
         padding: 0px 120px;
     }
 
-    .marquee .marquee-h1{
+    .marquee .marquee-h1 {
         font-size: 35px;
     }
 
@@ -653,7 +652,7 @@ footer .social-icon img {
         padding: 40px 120px;
     }
 
-    .content .content-h1{
+    .content .content-h1 {
         font-size: 60px;
     }
 
