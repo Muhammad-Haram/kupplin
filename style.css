@@ -530,6 +530,8 @@
   padding-top: 20px;
   font-family: neueHassDisplayBlack;
   font-size: 35px;
+  text-transform: uppercase;
+  max-width: 375px;
 }
 
 .swiper-slide {
@@ -554,15 +556,14 @@
 
 .swiper-scrollbar {
   display: none;
-  width: 20% !important;
+  width: 30% !important;
   opacity: 1 !important;
   background: #5d5d5d !important;
   margin-top: 30px !important;
 }
 
 .swiper-scrollbar.swiper-scrollbar-horizontal {
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
+  left: 67% !important;
 }
 
 /* testimonial end */
@@ -803,6 +804,14 @@ footer .social-icon img {
 
   .testimonial {
     padding: 40px;
+  }
+
+  .tes-h1 {
+    padding-top: 20px;
+    font-family: neueHassDisplayBlack;
+    font-size: 45px;
+    text-transform: uppercase;
+    max-width: 375px;
   }
 
   .swiper-scrollbar {
