@@ -148,13 +148,13 @@
   font-size: 14px;
 }
 
-.content-first-button {
+.content-second-button {
   background-color: #03a6ce;
   font-family: "Inter", sans-serif;
   color: white;
 }
 
-.content-second-button {
+.content-first-button {
   font-family: "Inter", sans-serif;
   border: 1px solid #000;
 }
@@ -228,6 +228,8 @@
   font-family: neueHassDisplayBlack;
   font-weight: 900;
   font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .services .ser-card-h1 {
@@ -289,6 +291,10 @@
   border-bottom: 1px solid #bbbbbb;
 }
 
+.wck-top {
+  display: none;
+}
+
 .wck-cards-container {
   flex-wrap: wrap;
   border-left: 1px solid #bbbbbb;
@@ -326,6 +332,11 @@
 
 .wck-card-para {
   font-size: 14px;
+  max-width: 310px;
+}
+
+.wck-card {
+  padding: 30px;
 }
 
 /* why choose kupplin (cwk) end  */
@@ -349,9 +360,11 @@
   color: #424242;
   font-size: 28px;
   font-family: neueHassDisplayBlack;
+  text-transform: capitalize;
+  max-width: 820px;
 }
 
-.video-section .heading img {
+.video-section .heading .video-logo {
   width: 140px;
 }
 
@@ -360,7 +373,7 @@
   font-family: neueHassDisplayRoman;
   letter-spacing: 1px;
   word-spacing: 1px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .video img {
@@ -396,7 +409,6 @@
 .customer-section {
   background-color: #000;
   min-height: 50vh;
-  border-bottom: 1px solid #bbbbbb;
   padding: 30px;
 }
 
@@ -657,6 +669,8 @@ footer .social-icon img {
   .services .services-h1 {
     margin-left: 120px;
     font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 30px;
   }
 
   .services .ser-card,
@@ -670,11 +684,15 @@ footer .social-icon img {
   }
 
   .video-section {
-    padding: 0px 120px 40px 120px;
+    padding: 0px 120px 100px 120px;
   }
 
   .video-section .heading .video-h1 {
     font-size: 60px;
+  }
+
+  .video-section .heading .video-logo {
+    width: 200px;
   }
 
   .play-btn {
@@ -694,15 +712,21 @@ footer .social-icon img {
   }
 
   .customer-section {
+    border-bottom: 1px solid #bbbbbb;
+  }
+
+  .customer-section {
     padding: 40px 120px;
   }
 
   .customer-section .cus-sec-text .text-head .customer-h1 {
     font-size: 40px;
+    max-width: 420px;
   }
 
   .customer-section .cus-sec-text .text-box-head {
     font-size: 25px;
+    max-width: 545px;
   }
 
   .candidate-inner {
@@ -730,6 +754,7 @@ footer .social-icon img {
 
   .wck-heading {
     margin-left: 120px;
+    margin-top: 70px;
     margin-bottom: 40px;
     padding: 0;
   }
@@ -739,9 +764,21 @@ footer .social-icon img {
     max-width: 600px;
   }
 
+  .wck-top {
+    border-left: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+
   .wck-cards-container {
     margin: 0;
     margin-right: 120px;
+  }
+
+  .wck-card {
+    padding: 100px 30px;
   }
 
   .wck-card-1 {
