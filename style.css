@@ -131,6 +131,8 @@
   color: #7e8285;
   font-weight: 300;
   font-family: neueHassDisplayRoman;
+  max-width: 490px;
+  font-size: 14px;
 }
 
 .Allbtn {
