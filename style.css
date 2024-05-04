@@ -648,6 +648,7 @@ footer .social-icon img {
 
   .content .content-h1 {
     font-size: 60px;
+    max-width: 440px;
   }
 
   .services .services-h1 {
