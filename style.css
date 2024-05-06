@@ -165,7 +165,6 @@
 .tech-Solution {
   gap: 20px;
   padding: 30px 30px;
-  padding-top: 80px;
 }
 
 .tech-sol-left,
@@ -404,12 +403,13 @@
   width: 140px;
 }
 
-.video-section p {
+.video-section .video-para {
   color: #505050;
   font-family: neueHassDisplayRoman;
   letter-spacing: 1px;
   word-spacing: 1px;
-  font-size: 16px;
+  font-size: 17px;
+  max-width: 800px;
 }
 
 .video img {
@@ -546,6 +546,7 @@
 
 .hth-row-text .hth-row-text-para {
   font-size: 14px;
+  max-width: 400px;
 }
 
 .hth-inner {
@@ -832,7 +833,7 @@ footer .social-icon img {
 
   .candidate-inner {
     background-color: #40b4e5;
-    padding: 40px 120px 0px 120px;
+    padding: 80px 120px 0px 120px;
   }
 
   .candidate .candidate-h1 {
@@ -965,7 +966,7 @@ footer .social-icon img {
   }
 
   footer {
-    padding: 30px 150px;
+    padding: 90px 150px;
   }
 
   .footer .fo-tin-txt {
