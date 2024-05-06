@@ -118,6 +118,7 @@
 
 .content {
   padding: 30px;
+  border-bottom: 1px solid #bbbbbb;
 }
 
 .content .content-h1 {
@@ -669,7 +670,7 @@ footer .social-icon img {
   }
 
   .content {
-    padding: 40px 120px;
+    padding: 50px 120px 90px 120px;
   }
 
   .content .content-h1 {
