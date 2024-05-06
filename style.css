@@ -437,8 +437,9 @@
   font-size: 20px;
 }
 
-.customer-section .cus-sec-text .text-box p {
+.customer-section .cus-sec-text .text-box-para {
   font-family: neueHassDisplayRoman;
+  margin-top: 20px;
 }
 
 /* .candidate section  */
@@ -483,6 +484,7 @@
 .here-to-help .hth-h1 {
   font-family: neueHassDisplayBlack;
   font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .hth-inner-row {
@@ -738,6 +740,10 @@ footer .social-icon img {
     max-width: 545px;
   }
 
+  .customer-section .cus-sec-text .text-box-para {
+    margin-top: 50px;
+  }
+
   .candidate {
     padding-bottom: 150px;
   }
@@ -759,12 +765,17 @@ footer .social-icon img {
 
   .here-to-help {
     background-color: #000;
-    padding: 120px;
+    padding: 50px 120px 80px 120px;
   }
 
   .hth-inner-left .hth-inner-left-img {
     max-width: 85%;
     height: auto;
+  }
+
+  .here-to-help .hth-h1 {
+    font-size: 60px;
+    margin-bottom: 70px;
   }
 
   .wck-cards-main {
@@ -774,7 +785,7 @@ footer .social-icon img {
   .wck-heading {
     margin-left: 120px;
     margin-top: 70px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 0;
   }
 
@@ -848,13 +859,6 @@ footer .social-icon img {
 
   .cus-sec-award {
     padding: 50px;
-  }
-
-  .here-to-help .hth-h1 {
-    font-size: 60px;
-  }
-
-  .hth-inner {
   }
 
   .testimonial {
