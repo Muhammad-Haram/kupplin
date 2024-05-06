@@ -631,7 +631,7 @@
 }
 
 .swiper-scrollbar.swiper-scrollbar-horizontal {
-  left: 67% !important;
+  left: 70% !important;
 }
 
 /* testimonial end */
@@ -951,6 +951,7 @@ footer .social-icon img {
 
   .testimonial {
     padding: 40px;
+    padding-right: 0;
   }
 
   .tes-h1 {
@@ -959,6 +960,10 @@ footer .social-icon img {
     font-size: 45px;
     text-transform: uppercase;
     max-width: 375px;
+  }
+
+  .swiper-wrapper{
+    left: 50px;
   }
 
   .swiper-scrollbar {
