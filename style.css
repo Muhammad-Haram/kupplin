@@ -761,6 +761,11 @@ footer .social-icon img {
     margin-bottom: 30px;
   }
 
+  .ser-card-para {
+    font-size: 16px;
+    max-width: 560px;
+  }
+
   .services .ser-card,
   .services .ser-card-2 {
     padding: 0px 120px;
@@ -886,6 +891,11 @@ footer .social-icon img {
 
   .wck-card {
     padding: 100px 30px;
+  }
+
+  .wck-card-img img {
+    width: 65px;
+    height: 65px;
   }
 
   .wck-card-1 {
