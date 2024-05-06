@@ -745,8 +745,13 @@ footer .social-icon img {
   }
 
   .content .content-h1 {
-    font-size: 60px;
+    font-size: 75px;
     max-width: 440px;
+  }
+
+  .content .content-p {
+    max-width: 630px;
+    font-size: 17px;
   }
 
   .services .services-h1 {
