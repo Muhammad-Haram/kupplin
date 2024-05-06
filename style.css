@@ -446,6 +446,7 @@
 .candidate {
   background-color: black;
   border-bottom: 1px solid #bbbbbb;
+  padding-bottom: 70px;
 }
 
 .candidate-inner {
@@ -474,6 +475,11 @@
   padding: 30px;
 }
 
+.hth-inner-left .hth-inner-left-img {
+  max-width: 100%;
+  height: auto;
+}
+
 .here-to-help .hth-h1 {
   font-family: neueHassDisplayBlack;
   font-size: 30px;
@@ -489,6 +495,7 @@
 
 .hth-row-text .hth-row-text-h1 {
   font-size: 20px;
+  max-width: 350px;
 }
 
 .hth-row-text .hth-row-text-para {
@@ -496,7 +503,7 @@
 }
 
 .hth-inner {
-  gap: 30px;
+  /* gap: 30px; */
 }
 
 /* here-to-help section end*/
@@ -512,7 +519,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
 }
 
 .cus-sec-award h1 {
@@ -525,11 +531,14 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
 }
 
 .cus-sec-award .awards img {
-  width: 40px;
+  width: 65px;
 }
 
 /* testimonial  */
@@ -708,7 +717,7 @@ footer .social-icon img {
   }
 
   .cus-sec-award .awards img {
-    width: 80px;
+    width: 100px;
   }
 
   .customer-section {
@@ -729,6 +738,10 @@ footer .social-icon img {
     max-width: 545px;
   }
 
+  .candidate {
+    padding-bottom: 150px;
+  }
+
   .candidate-inner {
     background-color: #40b4e5;
     padding: 40px 120px 0px 120px;
@@ -741,11 +754,17 @@ footer .social-icon img {
   .candidate .candidate-para1,
   .candidate .candidate-para2 {
     font-size: 16px;
+    max-width: 1030px;
   }
 
   .here-to-help {
     background-color: #000;
     padding: 120px;
+  }
+
+  .hth-inner-left .hth-inner-left-img {
+    max-width: 85%;
+    height: auto;
   }
 
   .wck-cards-main {
@@ -836,7 +855,6 @@ footer .social-icon img {
   }
 
   .hth-inner {
-    gap: 120px;
   }
 
   .testimonial {
