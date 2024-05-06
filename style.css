@@ -444,8 +444,12 @@
 /* customer section  */
 .customer-section {
   background-color: #000;
-  min-height: 50vh;
+  padding-bottom: 50px;
+}
+
+.customer-section-wrap {
   padding: 30px;
+  border-bottom: 1px solid #bbbbbb;
 }
 
 .customer-section .cus-sec-text .text-head .customer-h1 {
@@ -710,7 +714,7 @@ footer .social-icon img {
     padding-bottom: 120px;
   }
 
-  .tech-Sol-divider{
+  .tech-Sol-divider {
     display: flex;
   }
 
@@ -791,11 +795,11 @@ footer .social-icon img {
   }
 
   .customer-section {
-    border-bottom: 1px solid #bbbbbb;
+    padding-bottom: 150px;
   }
 
-  .customer-section {
-    padding: 40px 120px;
+  .customer-section-wrap {
+    padding: 60px 120px;
   }
 
   .customer-section .cus-sec-text .text-head .customer-h1 {
